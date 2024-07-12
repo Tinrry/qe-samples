@@ -5,3 +5,4 @@ date="$(date +'%m%d')"
 pw.x <*.in &> $dirname-$date.out 
 
 grep '!' *.out
+awk -F' +' '{print $5}' reference.txt

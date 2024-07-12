@@ -1,0 +1,10 @@
+01a_methane/01a_methane-0711.out:!    total energy              =     -15.49834173 Ry
+01a_methane/CH4.out:!    total energy              =     -15.49834181 Ry
+01_methane/CH4.out:!    total energy              =     -15.49834181 Ry
+02_ethane/c2h6.out:!    total energy              =     -28.75484814 Ry
+03_ethene/c2h4.out:!    total energy              =     -26.38544305 Ry
+04_c20_bowl/pw.out:!    total energy              =    -218.12242634 Ry
+05_c20_ring/pw.out:!    total energy              =    -217.76506478 Ry
+06_c20_cage/pw.out:!    total energy              =    -218.37740805 Ry
+07_c20_amorphous/pw.out:!    total energy              =    -217.09833985 Ry
+08_c20_smile/pw.out:!    total energy              =    -216.92844781 Ry

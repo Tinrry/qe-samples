@@ -1,0 +1,5 @@
+graphene.out:!    total energy              =     -22.77645136 Ry
+graphene.out:!    total energy              =     -22.77719808 Ry
+graphene.out:!    total energy              =     -22.77762638 Ry
+graphene.out:!    total energy              =     -22.77768309 Ry
+graphene.out:!    total energy              =     -22.77652732 Ry
