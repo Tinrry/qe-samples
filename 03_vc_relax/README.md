@@ -48,5 +48,25 @@ xcrysden --pwo file.out
  `dihedral angle` 弛豫的结果分析。
 
 
+gher energy-cut off to converge the stress 
+
+2. 设置 variable-cell relaxation by setting
+`calculation = 'vc-relax'` in the `CONTROL` section. We must additionally
+specify both an `IONS` section as previously, along with a `CELL` section.
+
+![alt text](image-11.png)
+
+### _Task_
+
+晶格参数：
+
+开始：
+
+![alt text](image-10.png)
+
+结束：
+
+![alt text](image-9.png)
+
 ## 反馈学习&问题记录
 Done.
