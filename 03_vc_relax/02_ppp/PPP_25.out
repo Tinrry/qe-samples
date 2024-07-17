@@ -1,0 +1,354 @@
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+MPI startup(): Warning: I_MPI_PMI_LIBRARY will be ignored since the hydra process manager was found
+
+     Program PWSCF v.7.1 starts on 16Jul2024 at 17:36: 1 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     1 nodes
+     2688 MiB available memory on the printing compute node when the environment starts
+ 
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+     file H.pz-vbc.UPF: wavefunction(s)  1S renormalized
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+ 
+     R & G space division:  proc/nbgrp/npool/nimage =      32
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         217     217     59                 8817     8817    1255
+     Max         218     218     60                 8820     8820    1258
+     Sum        6969    6969   1893               282173   282173   40171
+ 
+     Using Slab Decomposition
+ 
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =      25.0000  a.u.
+     unit-cell volume          =   10087.9800 (a.u.)^3
+     number of atoms/cell      =           20
+     number of atomic types    =            2
+     number of electrons       =        56.00
+     number of Kohn-Sham states=           28
+     kinetic-energy cutoff     =      35.0000  Ry
+     charge density cutoff     =     140.0000  Ry
+     scf convergence threshold =      1.0E-06
+     mixing beta               =       0.7000
+     number of iterations used =            8  plain     mixing
+     Exchange-correlation=  SLA  PZ   NOGX NOGC
+                           (   1   1   0   0   0   0   0)
+
+     celldm(1)=  25.000000  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000   0.000000   0.000000 )  
+               a(2) = (   0.000000   1.000000   0.000000 )  
+               a(3) = (   0.000000   0.000000   0.645631 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.000000  0.000000 )  
+               b(2) = (  0.000000  1.000000  0.000000 )  
+               b(3) = (  0.000000  0.000000  1.548873 )  
+
+
+     PseudoPot. # 1 for C  read from file:
+     ./C.pz-vbc.UPF
+     MD5 check sum: ab53dd623bfeb79c5a7b057bc96eae20
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated by new atomic code, or converted to UPF format
+     Using radial grid of  269 points,  1 beta functions with: 
+                l(1) =   0
+
+     PseudoPot. # 2 for H  read from file:
+     ./H.pz-vbc.UPF
+     MD5 check sum: 90becb985b714f09656c73597998d266
+     Pseudo is Norm-conserving, Zval =  1.0
+     Generated by new atomic code, or converted to UPF format
+     Using radial grid of  131 points,  0 beta functions with: 
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100     C ( 1.00)
+        H              1.00     1.00800     H ( 1.00)
+
+      2 Sym. Ops. (no inversion) found ( 1 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (   0.2456308   0.2456307   0.0552337  )
+         2           C   tau(   2) = (   0.2456308   0.1555842   0.1093769  )
+         3           C   tau(   3) = (   0.2456308   0.3356774   0.1093769  )
+         4           C   tau(   4) = (   0.2456308   0.1555842   0.2134384  )
+         5           C   tau(   5) = (   0.2456308   0.3356774   0.2134384  )
+         6           C   tau(   6) = (   0.2456308   0.2456307   0.2675817  )
+         7           H   tau(   7) = (   0.2456308   0.0836071   0.0688970  )
+         8           H   tau(   8) = (   0.2456308   0.4076544   0.0688970  )
+         9           H   tau(   9) = (   0.2456308   0.0836071   0.2539184  )
+        10           H   tau(  10) = (   0.2456308   0.4076544   0.2539184  )
+        11           C   tau(  11) = (   0.2456307   0.2456307   0.3780490  )
+        12           C   tau(  12) = (   0.2836860   0.1640209   0.4321923  )
+        13           C   tau(  13) = (   0.2075754   0.3272407   0.4321923  )
+        14           C   tau(  14) = (   0.2836860   0.1640209   0.5362538  )
+        15           C   tau(  15) = (   0.2075754   0.3272407   0.5362538  )
+        16           C   tau(  16) = (   0.2456307   0.2456307   0.5903971  )
+        17           H   tau(  17) = (   0.3141049   0.0987874   0.3917124  )
+        18           H   tau(  18) = (   0.1771566   0.3924740   0.3917124  )
+        19           H   tau(  19) = (   0.3141049   0.0987874   0.5767337  )
+        20           H   tau(  20) = (   0.1771566   0.3924740   0.5767337  )
+
+     number of k points=     2
+                       cart. coord. in units 2pi/alat
+        k(    1) = (  -0.5000000  -0.5000000   0.2581455), wk =   1.3333333
+        k(    2) = (  -0.5000000  -0.5000000  -0.7744365), wk =   0.6666667
+
+     Dense  grid:   282173 G-vectors     FFT dimensions: (  96,  96,  64)
+
+     Estimated max dynamical RAM per process >       8.87 MB
+
+     Estimated total dynamical RAM >     283.73 MB
+
+     Initial potential from superposition of free atoms
+
+     starting charge      55.9994, renormalised to      56.0000
+
+     negative rho (up, down):  2.546E-02 0.000E+00
+     Starting wfcs are   56 randomized atomic wfcs
+
+     total cpu time spent up to now is        0.2 secs
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    35.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  2.0
+
+     negative rho (up, down):  7.030E-03 0.000E+00
+
+     total cpu time spent up to now is        0.4 secs
+
+     total energy              =    -144.27443087 Ry
+     estimated scf accuracy    <       2.23706693 Ry
+
+     iteration #  2     ecut=    35.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  3.99E-03,  avg # of iterations =  2.0
+
+     negative rho (up, down):  2.802E-03 0.000E+00
+
+     total cpu time spent up to now is        0.6 secs
+
+     total energy              =    -144.72311309 Ry
+     estimated scf accuracy    <       0.32047195 Ry
+
+     iteration #  3     ecut=    35.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  5.72E-04,  avg # of iterations =  2.0
+
+     negative rho (up, down):  3.030E-04 0.000E+00
+
+     total cpu time spent up to now is        0.7 secs
+
+     total energy              =    -144.78412971 Ry
+     estimated scf accuracy    <       0.00977812 Ry
+
+     iteration #  4     ecut=    35.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  1.75E-05,  avg # of iterations =  2.0
+
+     negative rho (up, down):  1.922E-05 0.000E+00
+
+     total cpu time spent up to now is        0.8 secs
+
+     total energy              =    -144.78547598 Ry
+     estimated scf accuracy    <       0.00043089 Ry
+
+     iteration #  5     ecut=    35.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  7.69E-07,  avg # of iterations =  3.5
+
+     negative rho (up, down):  6.909E-08 0.000E+00
+
+     total cpu time spent up to now is        1.0 secs
+
+     total energy              =    -144.78557762 Ry
+     estimated scf accuracy    <       0.00002938 Ry
+
+     iteration #  6     ecut=    35.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  5.25E-08,  avg # of iterations =  5.0
+
+     total cpu time spent up to now is        1.1 secs
+
+     total energy              =    -144.78559031 Ry
+     estimated scf accuracy    <       0.00000322 Ry
+
+     iteration #  7     ecut=    35.00 Ry     beta= 0.70
+     Davidson diagonalization with overlap
+     ethr =  5.75E-09,  avg # of iterations =  4.5
+
+     total cpu time spent up to now is        1.3 secs
+
+     End of self-consistent calculation
+
+          k =-0.5000-0.5000 0.2581 ( 35264 PWs)   bands (ev):
+
+   -21.4163 -20.5731 -19.3701 -18.1530 -17.7057 -16.8824 -15.2237 -15.1917
+   -13.5660 -13.4318 -12.9286 -11.3991 -11.1481 -10.3308  -9.9864  -9.9276
+    -9.6433  -9.4240  -8.9256  -8.8558  -8.3980  -8.0631  -7.5214  -7.2090
+    -6.8047  -5.9769  -5.7698  -4.5672
+
+          k =-0.5000-0.5000-0.7744 ( 35224 PWs)   bands (ev):
+
+   -21.1154 -21.1151 -18.2580 -18.2576 -17.9591 -17.9580 -14.4837 -14.4821
+   -14.0301 -14.0297 -12.1589 -12.1579 -10.5091 -10.5078 -10.2498 -10.2484
+    -9.6178  -9.6153  -9.0241  -9.0237  -7.8159  -7.8151  -7.4346  -7.4344
+    -5.8797  -5.8797  -5.8236  -5.8233
+
+     highest occupied level (ev):    -4.5672
+
+!    total energy              =    -144.78559120 Ry
+     estimated scf accuracy    <       0.00000018 Ry
+
+     The total energy is the sum of the following terms:
+     one-electron contribution =    -762.23380777 Ry
+     hartree contribution      =     387.55213637 Ry
+     xc contribution           =     -46.78648171 Ry
+     ewald contribution        =     276.68256192 Ry
+
+     convergence has been achieved in   7 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00001254    0.00005418   -0.00637740
+     atom    2 type  1   force =     0.00459286   -0.00282845    0.00681683
+     atom    3 type  1   force =    -0.00454156    0.00272599    0.00680689
+     atom    4 type  1   force =     0.00459286   -0.00282845   -0.00681683
+     atom    5 type  1   force =    -0.00454156    0.00272599   -0.00680689
+     atom    6 type  1   force =     0.00001254    0.00005418    0.00637740
+     atom    7 type  2   force =    -0.00317818   -0.00961898   -0.00542705
+     atom    8 type  2   force =     0.00316427    0.00960908   -0.00543271
+     atom    9 type  2   force =    -0.00317818   -0.00961898    0.00542705
+     atom   10 type  2   force =     0.00316427    0.00960908    0.00543271
+     atom   11 type  1   force =     0.00001761    0.00004386   -0.00617345
+     atom   12 type  1   force =    -0.00340346   -0.00455072    0.00656704
+     atom   13 type  1   force =     0.00334891    0.00458605    0.00657740
+     atom   14 type  1   force =    -0.00340346   -0.00455072   -0.00656704
+     atom   15 type  1   force =     0.00334891    0.00458605   -0.00657740
+     atom   16 type  1   force =     0.00001761    0.00004386    0.00617345
+     atom   17 type  2   force =     0.00701079   -0.00738149   -0.00541717
+     atom   18 type  2   force =    -0.00702379    0.00736048   -0.00541372
+     atom   19 type  2   force =     0.00701079   -0.00738149    0.00541717
+     atom   20 type  2   force =    -0.00702379    0.00736048    0.00541372
+
+     Total force =     0.042648     Total SCF correction =     0.000454
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=      -25.61
+  -0.00019753  -0.00000739   0.00000000          -29.06       -1.09        0.00
+  -0.00000739  -0.00016535   0.00000000           -1.09      -24.32        0.00
+   0.00000000   0.00000000  -0.00015937            0.00        0.00      -23.44
+
+ 
+     init_run     :      0.13s CPU      0.18s WALL (       1 calls)
+     electrons    :      0.83s CPU      1.04s WALL (       1 calls)
+     forces       :      0.02s CPU      0.02s WALL (       1 calls)
+     stress       :      0.04s CPU      0.05s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.05s CPU      0.08s WALL (       1 calls)
+     potinit      :      0.01s CPU      0.01s WALL (       1 calls)
+     hinit0       :      0.01s CPU      0.02s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :      0.69s CPU      0.87s WALL (       7 calls)
+     sum_band     :      0.10s CPU      0.13s WALL (       7 calls)
+     v_of_rho     :      0.01s CPU      0.01s WALL (       8 calls)
+     mix_rho      :      0.02s CPU      0.02s WALL (       7 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.01s CPU      0.01s WALL (      34 calls)
+     init_us_2:cp :      0.01s CPU      0.01s WALL (      34 calls)
+     cegterg      :      0.68s CPU      0.85s WALL (      14 calls)
+
+     Called by *egterg:
+     cdiaghg      :      0.08s CPU      0.10s WALL (      56 calls)
+     h_psi        :      0.51s CPU      0.68s WALL (      58 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (      42 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      0.02s CPU      0.02s WALL (      58 calls)
+     vloc_psi     :      0.48s CPU      0.63s WALL (      58 calls)
+     add_vuspsi   :      0.01s CPU      0.01s WALL (      58 calls)
+
+     General routines
+     calbec       :      0.03s CPU      0.03s WALL (      68 calls)
+     fft          :      0.01s CPU      0.03s WALL (      28 calls)
+     ffts         :      0.00s CPU      0.00s WALL (       7 calls)
+     fftw         :      0.50s CPU      0.67s WALL (    2972 calls)
+ 
+     Parallel routines
+ 
+     PWSCF        :      1.04s CPU      1.35s WALL
+
+ 
+   This run was terminated on:  17:36: 3  16Jul2024            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

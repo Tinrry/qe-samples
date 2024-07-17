@@ -1,0 +1,49 @@
+
+
+*******************************************************************************
+Wed Jul 17 09:52:53 2024
+
+
+FIT:    data read from 'e_v_theta.txt' u 1:2
+        format = x:z
+        #datapoints = 5
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+fitted parameters initialized with current variable values
+
+
+
+ Iteration 0
+ WSSR        : 5.69003e+06       delta(WSSR)/WSSR   : 0
+ delta(WSSR) : 0                 limit for stopping : 1e-05
+ lambda	  : 601.443
+
+initial set of free parameter values
+
+a               = 1
+b               = 1
+c               = -150
+
+After 8 iterations the fit converged.
+final sum of squares of residuals : 7.11163e-09
+rel. change during last iteration : -2.39551e-08
+
+degrees of freedom    (FIT_NDF)                        : 2
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.96307e-05
+variance of residuals (reduced chisquare) = WSSR/ndf   : 3.55582e-09
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+
+a               = 1.47509e-05      +/- 6.375e-07    (4.322%)
+b               = -0.000892631     +/- 3.843e-05    (4.306%)
+c               = -144.773         +/- 0.0005542    (0.0003828%)
+
+
+correlation matrix of the fit parameters:
+
+               a      b      c      
+a               1.000 
+b              -0.995  1.000 
+c               0.978 -0.993  1.000 
